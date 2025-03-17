@@ -64,6 +64,7 @@
             opacity: 1;
             transform: translateY(0);
         }
+        
     </style>
 </head>
 <body>
@@ -118,7 +119,32 @@
             </table>
         </div>
     </section>
-    
+
+    <section class="section fade-in">
+        <div class="container">
+            <h2>Formulir Saran dan Feedback</h2>
+            <form action="#" method="POST">
+                <div class="mb-3">
+                    <label for="nama" class="form-label">Nama</label>
+                    <input type="text" class="form-control" id="nama" name="nama" placeholder="Masukkan nama Anda" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Masukkan email Anda" required>
+                </div>
+                <div class="mb-3">
+                    <label for="nohp" class="form-label">No. HP</label>
+                    <input type="text" class="form-control" id="nohp" name="nohp" placeholder="Masukkan no. HP Anda" required>
+                </div>
+                <div class="mb-3">
+                    <label for="saran" class="form-label">Saran</label>
+                    <textarea class="form-control" id="saran" name="saran" rows="4" placeholder="Masukkan saran atau pesan Anda" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Kirim</button>
+            </form>
+        </div>
+    </section>
+
     <section class="section bg-light text-center fade-in">
         <div class="container">
             <h2>Hubungi Saya</h2>
